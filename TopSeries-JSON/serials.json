@@ -1,0 +1,15 @@
+"serials":
+[
+	{
+		"name": "Serial1",
+		"director": "Person1",
+	},
+	{
+		"name": "Serial2",
+		"director": "Person2"
+	},
+	{
+		"name": "Serial3",
+		"director": "Person3"
+	}
+]

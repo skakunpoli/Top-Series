@@ -1,0 +1,27 @@
+"serials":
+[
+	"Serial1":
+	[
+		{
+			"name": "Episode1"
+		},
+		{
+			"name": "Episode2"
+		},
+	],
+	"Serial2":
+	[
+		{
+			"name": "Episode1"
+		},
+		{
+			"name": "Episode2"
+		},
+	],
+	"Serial3":
+	[
+		{
+			"name": "Episode1"
+		}
+	]
+]

@@ -1,0 +1,16 @@
+{{#each serials.serials as |serial|}}
+<div>
+<p>{{serial.name}} - {{serial.director}}</p>
+<p>
+{{#each serial.actors as |actor|}}
+{{actor.name}} {{actor.surname}}
+<br/>
+{{/each}}
+</p>
+<p>
+{{#each serial.episodes as |episode|}}
+<li>{{episode.name}}</li>
+{{/each}}
+</p>
+</div>
+{{/each}}
