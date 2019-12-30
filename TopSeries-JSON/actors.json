@@ -3,25 +3,30 @@
 	"Serial1":
 	[
 		{
-			"name": "Episode1"
+			"name": "Name1",
+			"surname": "Surname1"
 		},
 		{
-			"name": "Episode2"
-		},
+			"name": "Name2",
+			"surname": "Surname2"
+		}
 	],
 	"Serial2":
 	[
 		{
-			"name": "Episode1"
+			"name": "Name3",
+			"surname": "Surname3"
 		},
 		{
-			"name": "Episode2"
-		},
+			"name": "Name4",
+			"surname": "Surname4"
+		}
 	],
 	"Serial3":
 	[
 		{
-			"name": "Episode1"
+			"name": "Name5",
+			"surname": "Surname5"
 		}
 	]
 ]
