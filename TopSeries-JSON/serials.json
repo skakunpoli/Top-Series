@@ -3,13 +3,66 @@
 	{
 		"name": "Serial1",
 		"director": "Person1",
+		"actors":
+		[
+			{
+				"name": "Name1",
+				"surname": "Surname1"
+			},
+			{
+				"name": "Name2",
+				"surname": "Surname2"
+			}
+		],
+		"episodes":
+		[
+			{
+				"name": "Episode1"
+			},
+			{
+				"name": "Episode2"
+			}
+		]
 	},
 	{
 		"name": "Serial2",
-		"director": "Person2"
+		"director": "Person2",
+		"actors":
+		[
+			{
+				"name": "Name3",
+				"surname": "Surname3"
+			},
+			{
+				"name": "Name4",
+				"surname": "Surname4"
+			}
+		],
+		"episodes":
+		[
+			{
+				"name": "Episode1"
+			},
+			{
+				"name": "Episode2"
+			}
+		]
 	},
 	{
 		"name": "Serial3",
-		"director": "Person3"
+		"director": "Person3",
+		"actors":
+		[
+			{
+				"name": "Name5",
+				"surname": "Surname5"
+			}
+		],
+		"episodes":
+		[
+			{
+				"name": "Episode1"
+			}
+		]
 	}
 ]

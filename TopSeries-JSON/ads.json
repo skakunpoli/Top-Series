@@ -1,0 +1,21 @@
+"ads":
+[
+	{
+		"text": "Some Text",
+		"customer": "Person1",
+		"cost": "100",
+		"cnt_days": "10"
+	},
+	{
+		"text": "Some Text",
+		"customer": "Person2",
+		"cost": "150",
+		"cnt_days": "5"
+	},
+	{
+		"text": "Some Text",
+		"customer": "Person3",
+		"cost": "10",
+		"cnt_days": "2"
+	}
+]

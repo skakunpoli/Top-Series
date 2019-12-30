@@ -1,0 +1,21 @@
+"users":
+[
+	{
+		"login": "login1",
+		"password": "asdfghjkl",
+		"cnt_comments": "100",
+		"cnt_watched_serials": "10"
+	},
+	{
+		"login": "login2",
+		"password": "asdfghjkl2",
+		"cnt_comments": "50",
+		"cnt_watched_serials": "2"
+	},
+	{
+		"login": "login3",
+		"password": "asdfghjkl3",
+		"cnt_comments": "10",
+		"cnt_watched_serials": "20"
+	}
+]
