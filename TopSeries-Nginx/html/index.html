@@ -14,8 +14,34 @@
 	<div>
 		<!--#include virtual="serials"-->
 	</div>
+	<div id="id1">
+	</div>
 	<div style="position: absolute; bottom: 0">
 		<!--#include virtual="ads"-->
 	</div>
 </body>
+<template id="template">
+			<h2>Top</h2>
+  	  		{{#each top_serials}}
+				<li>{{name}}</li>
+			{{/each}}
+		</template>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js"></script>
+<script>
+	var template = document.getElementById('template').innerHTML;
+	var renderSerials = Handlebars.compile(template);
+	var top_serials = [
+    {
+    	"name": "Game Of Thrones"
+    },
+    {
+
+    	"name": "Sherlok"
+    },
+    {
+
+    	"name": "Warehouse 13"
+    }];
+	document.getElementById('id1').innerHTML = renderSerials({top_serials: top_serials});
+</script>
 </html>

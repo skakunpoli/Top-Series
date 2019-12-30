@@ -12,5 +12,10 @@
 <li>{{episode.name}}</li>
 {{/each}}
 </p>
+<select>
+{{#each serial.days as |item|}}
+<option>{{item.day}}</option>
+{{/each}}
+</select>
 </div>
 {{/each}}

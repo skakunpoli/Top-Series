@@ -25,6 +25,20 @@ router.get('/', (req, res) => {
 				{
 					name: faker.lorem.word()
 				}
+			],
+			days:[
+				{
+					day: 1,
+					money: 10000
+				},
+				{
+					day: 2,
+					money: 1000
+				},
+				{
+					day: 3,
+					money: 900
+				}
 			]
 		},
 		{
@@ -42,6 +56,24 @@ router.get('/', (req, res) => {
 				},
 				{
 					name: faker.lorem.word()
+				}
+			],
+			days:[
+				{
+					day: 1,
+					money: 60
+				},
+				{
+					day: 2,
+					money: 50
+				},
+				{
+					day: 3,
+					money: 40
+				},
+				{
+					day: 4,
+					money: 30
 				}
 			]
 		}
